@@ -128,7 +128,7 @@ body{
     justify-content: center;
     margin-left: 15%;
     margin-top: 10%;
-    gap: 20px;
+    gap: 70px;
 }
 .main-text h1{
     font-size: 6em;
@@ -141,8 +141,38 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    left: 70%;
+    gap: 50px;
+    left: 65%;
     top: 80%;
     position: absolute;
+}
+.img img{
+    height: 390px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}
+.watch{
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    bottom: -45%;
+    left: 15%;
+    cursor: pointer;
+    
+}
+.watch i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3em;
+
+
+}
+.watch p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
