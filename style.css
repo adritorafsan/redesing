@@ -88,11 +88,12 @@ body{
 .right-header{
     position: absolute;
     right: 7%;
-    height: 822%;
+    height: 522px;
     width: 90px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
+    
 
 }
 
@@ -102,6 +103,7 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 22px;
+    padding-bottom: 130px;
 }
 
 
@@ -115,4 +117,32 @@ body{
 .right-header .number .mol{
     font-size: 2em;
 }
-.right-header 
+.right-header .scroll p{
+    transform: rotate(-90deg);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    gap: 20px;
+}
+.main-text h1{
+    font-size: 6em;
+    line-height: 77px;
+}
+.main-text p{
+    line-height: 25px;
+}
+.name-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    left: 70%;
+    top: 80%;
+    position: absolute;
+}
