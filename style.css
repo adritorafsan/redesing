@@ -9,6 +9,7 @@ body{
     width: 100%;
     background: black;
     color: white;
+    position: relative;
 }
  .main{
     height: 100%;
@@ -84,3 +85,34 @@ body{
 .search{
     font-weight: 400;
 }
+.right-header{
+    position: absolute;
+    right: 7%;
+    height: 822%;
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.right-header .number{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+
+.lol{
+    font-size: 6em;
+}
+.right-header .number p{
+    border-right: 2px solid;
+    height: 260px;
+}
+.right-header .number .mol{
+    font-size: 2em;
+}
+.right-header 
